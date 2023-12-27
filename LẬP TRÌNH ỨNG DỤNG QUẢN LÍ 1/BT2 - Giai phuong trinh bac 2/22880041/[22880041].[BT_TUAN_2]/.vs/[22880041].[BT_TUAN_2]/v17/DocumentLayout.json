@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\HIEP\\Git_Hub\\My_Course\\L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG QU\u1EA2N L\u00CD 1\\BT2 - Giai phuong trinh bac 2\\22880041\\[22880041].[BT_TUAN_2]\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3C264-D274-425E-B1EB-B9F057BA8451}|[22880041].[BT_TUAN_2]\\[22880041].[BT_TUAN_2].vbproj|e:\\hiep\\git_hub\\my_course\\l\u1EADp tr\u00ECnh \u1EE9ng d\u1EE5ng qu\u1EA3n l\u00ED 1\\bt2 - giai phuong trinh bac 2\\22880041\\[22880041].[bt_tuan_2]\\[22880041].[bt_tuan_2]\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D9A3C264-D274-425E-B1EB-B9F057BA8451}|[22880041].[BT_TUAN_2]\\[22880041].[BT_TUAN_2].vbproj|solutionrelative:[22880041].[bt_tuan_2]\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3C264-D274-425E-B1EB-B9F057BA8451}|[22880041].[BT_TUAN_2]\\[22880041].[BT_TUAN_2].vbproj|e:\\hiep\\git_hub\\my_course\\l\u1EADp tr\u00ECnh \u1EE9ng d\u1EE5ng qu\u1EA3n l\u00ED 1\\bt2 - giai phuong trinh bac 2\\22880041\\[22880041].[bt_tuan_2]\\[22880041].[bt_tuan_2]\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D9A3C264-D274-425E-B1EB-B9F057BA8451}|[22880041].[BT_TUAN_2]\\[22880041].[BT_TUAN_2].vbproj|solutionrelative:[22880041].[bt_tuan_2]\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 204,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "E:\\HIEP\\Git_Hub\\My_Course\\L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG QU\u1EA2N L\u00CD 1\\BT2 - Giai phuong trinh bac 2\\22880041\\[22880041].[BT_TUAN_2]\\[22880041].[BT_TUAN_2]\\Form1.vb",
+              "RelativeDocumentMoniker": "[22880041].[BT_TUAN_2]\\Form1.vb",
+              "ToolTip": "E:\\HIEP\\Git_Hub\\My_Course\\L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG QU\u1EA2N L\u00CD 1\\BT2 - Giai phuong trinh bac 2\\22880041\\[22880041].[BT_TUAN_2]\\[22880041].[BT_TUAN_2]\\Form1.vb",
+              "RelativeToolTip": "[22880041].[BT_TUAN_2]\\Form1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2023-12-26T05:08:14.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "E:\\HIEP\\Git_Hub\\My_Course\\L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG QU\u1EA2N L\u00CD 1\\BT2 - Giai phuong trinh bac 2\\22880041\\[22880041].[BT_TUAN_2]\\[22880041].[BT_TUAN_2]\\Form1.vb",
+              "RelativeDocumentMoniker": "[22880041].[BT_TUAN_2]\\Form1.vb",
+              "ToolTip": "E:\\HIEP\\Git_Hub\\My_Course\\L\u1EACP TR\u00CCNH \u1EE8NG D\u1EE4NG QU\u1EA2N L\u00CD 1\\BT2 - Giai phuong trinh bac 2\\22880041\\[22880041].[BT_TUAN_2]\\[22880041].[BT_TUAN_2]\\Form1.vb [Design]",
+              "RelativeToolTip": "[22880041].[BT_TUAN_2]\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2023-12-26T04:46:59.105Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\bin\Debug\net8.0-windows\[22880041].[BT_TUAN_2].exe
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\bin\Debug\net8.0-windows\[22880041].[BT_TUAN_2].deps.json
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\bin\Debug\net8.0-windows\[22880041].[BT_TUAN_2].runtimeconfig.json
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\bin\Debug\net8.0-windows\[22880041].[BT_TUAN_2].dll
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\bin\Debug\net8.0-windows\[22880041].[BT_TUAN_2].pdb
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\obj\Debug\net8.0-windows\_22880041_._BT_TUAN_2_.Form1.resources
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\obj\Debug\net8.0-windows\[22880041].[BT_TUAN_2].vbproj.GenerateResource.cache
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\obj\Debug\net8.0-windows\[22880041].[BT_TUAN_2].GeneratedMSBuildEditorConfig.editorconfig
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\obj\Debug\net8.0-windows\[22880041].[BT_TUAN_2].AssemblyInfoInputs.cache
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\obj\Debug\net8.0-windows\[22880041].[BT_TUAN_2].AssemblyInfo.vb
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\obj\Debug\net8.0-windows\[22880041].[BT_TUAN_2].vbproj.CoreCompileInputs.cache
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\obj\Debug\net8.0-windows\[22880041].[BT_TUAN_2].sourcelink.json
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\obj\Debug\net8.0-windows\[22880041].[BT_TUAN_2].dll
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\obj\Debug\net8.0-windows\refint\[22880041].[BT_TUAN_2].dll
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\obj\Debug\net8.0-windows\[22880041].[BT_TUAN_2].pdb
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\obj\Debug\net8.0-windows\[22880041].[BT_TUAN_2].genruntimeconfig.cache
+E:\HIEP\Git_Hub\-LTUDQL1-.-TUAN1-\[22880041].[BT_TUAN_2]\[22880041].[BT_TUAN_2]\obj\Debug\net8.0-windows\ref\[22880041].[BT_TUAN_2].dll
