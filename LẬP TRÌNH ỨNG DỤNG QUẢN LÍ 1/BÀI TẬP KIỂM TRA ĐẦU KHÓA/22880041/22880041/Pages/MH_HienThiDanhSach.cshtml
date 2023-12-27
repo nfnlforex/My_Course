@@ -1,0 +1,74 @@
+﻿@page
+@model MH_HienThiDanhSachModel
+@{
+    SanPham[] DsSanPham = XuLyFile.DocDuLieu();
+}
+<!DOCTYPE html>
+<style>
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+<html>
+<body class="text-center">
+
+    <h1> DANH MUC SAN PHAM</h1>
+    <br />
+    <br />
+
+
+    <br />
+    <br />
+    <table>
+        <tr>
+            <td>Ma san pham</td>
+            <td>Ten san pham</td>
+            <td>Loai hang</td>
+            <td>Gia</td>
+            <td>Han su dung</td>
+            <td>So luong</td>
+            <td></td>
+        </tr>
+        @for (int i = 0; i < DsSanPham.Length; i++)
+        {
+            <tr>
+                <td>@DsSanPham[i].MaSp</td>
+                <td>@DsSanPham[i].TenSp</td>
+                <td>@DsSanPham[i].Loai</td>
+                <td>@DsSanPham[i].Gia</td>
+                <td>@DsSanPham[i].HSD</td>
+                <td>@DsSanPham[i].SoLuong</td>
+          
+                
+                <td>
+                    <a href="/MH_XoaSanPham?MaSp=@DsSanPham[i].MaSp"><input type="button" value="Xóa" /></a>
+                    <a href="/MH_CapNhapSanPham?MaSp=@DsSanPham[i].MaSp"><input type="button" value="Sửa" /></a>
+                </td>
+            </tr>
+        }
+
+    </table>
+    <a href="Index"><botton>Quay lai</botton></a>
+</body>
+</html>

@@ -1,0 +1,4 @@
+3
+1,sung hoa,sung luc,10000,2026,5
+2,AK47,Sung truong,520000,2040,65
+4,Sung AKm,sung luc,1000000,2055,12

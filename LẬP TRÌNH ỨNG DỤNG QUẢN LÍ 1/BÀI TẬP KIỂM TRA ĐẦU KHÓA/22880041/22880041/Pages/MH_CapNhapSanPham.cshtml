@@ -1,0 +1,96 @@
+﻿@page
+@model _22880041.Pages.MH_CapNhapSanPhamModel
+@{
+	Layout = null;
+	string TenSp = string.Empty, Loai = string.Empty, HSD = string.Empty;
+	int Gia=0, MaSp, SoLuong=0;
+	string Chuoi = string.Empty;
+	MaSp = int.Parse(Request.Query["MaSp"]);
+	SanPham? s = null;
+	if( MaSp<0)
+	{
+		Chuoi = "Ma san pham khong hop le";
+	}
+	else
+	{
+		s = NghiepVu.DocSanPham(MaSp);
+		if(s==null)
+		{
+			Chuoi = "Khong tim thay san pham";
+		}
+		else
+		if(Request.Method=="GET")
+		{
+			TenSp = s.Value.TenSp;
+			Loai = s.Value.Loai;
+			Gia = s.Value.Gia;
+			HSD = s.Value.HSD;
+			SoLuong = s.Value.SoLuong;
+		}
+		else
+		if (Request.Method == "POST") 
+		{
+			MaSp = int.Parse(Request.Form["MaSp"]);
+			TenSp = Request.Form["TenSp"];
+			Loai = Request.Form["Loai"];
+			Gia = int.Parse(Request.Form["Gia"]);
+			HSD = Request.Form["HSD"];
+			SoLuong = int.Parse	(Request.Form["SoLuong"]);
+
+			SanPham moi;
+			moi.MaSp = MaSp;
+			moi.TenSp = TenSp;
+			moi.Loai = Loai;
+			moi.Gia = Gia;
+			moi.HSD = HSD;
+			moi.SoLuong = SoLuong;
+			Chuoi = NghiepVu.SuaSanPham(moi);
+
+
+			// Response.Redirect("/MH_HienThiDanhSach");
+		}
+	}
+	
+	}
+	<!DOCTYPE html>
+	<html>
+	<body class ="text-center">
+		@if(s!=null)
+	{
+		<form style="text-align:center" method="POST">
+			<br><br>
+			<label for="MaSanPham">Ma san pham:</label> <br />
+			<input type="text" name="MaSp" Value="@MaSp" /><br />
+
+			<label for="TenSanPham">Ten San Pham:</label> <br />
+			<input type="text" name="TenSp" Value="@TenSp" /><br />
+
+			<label for="LoaiSanPham">Loai San Pham:</label> <br />
+			<input type="text" name="Loai" Value="@Loai" /><br />
+
+			<label for="GiaSanPham">Gia San Pham:</label> <br />
+			<input type="text" name="Gia" Value="@Gia" /><br />
+
+			<label for="HanSuDung">Han Su Dung:</label> <br />
+			<input type="text" name="HSD" Value="@HSD" /><br />
+
+			<label for="SoLuongSanPham">So Luong San Pham:</label> <br />
+			<input type="text" name="SoLuong" Value="@SoLuong" /><br />	<br />
+
+
+
+			<input type="submit" value="Cap nhap san pham" /><br /><br />
+			<br />
+			@Chuoi
+			<br></br>
+
+			<a href="MH_HienThiDanhSach"><botton>Quay lai</botton></a>
+
+
+		</form>
+
+	}
+</body>
+	</html>
+
+}

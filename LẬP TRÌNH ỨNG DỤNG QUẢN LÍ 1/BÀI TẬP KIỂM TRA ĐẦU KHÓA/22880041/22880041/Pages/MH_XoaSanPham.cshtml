@@ -1,0 +1,60 @@
+﻿@page
+@model _22880041.Pages.MH_XoaSanPhamModel
+@{
+
+    Layout = null;
+    int MaSp;
+    string Chuoi = string.Empty;
+    MaSp =int.Parse( Request.Query["MaSp"]);
+    if(MaSp<0)
+    {
+        Chuoi = "Ma San Pham Khong Hop Le";
+    }
+    else
+    {
+        NghiepVu.XoaSanPham(MaSp);
+        Chuoi = "Da Xoa Thanh Cong";
+    }
+}
+<!DOCTYPE html>
+<style>
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+<html>
+<body class="text-center">
+
+    <h1> DANH MUC SAN PHAM</h1>
+    <br />
+    <br />
+    @Chuoi
+  @*   <a href="MH_HienThiDanhSach"><botton>Xoa</botton></a>
+ *@
+    <br />
+    <br />
+
+    <a href="MH_HienThiDanhSach"><botton>Quay lai</botton></a>
+</body>
+</html>

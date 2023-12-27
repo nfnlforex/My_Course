@@ -1,0 +1,70 @@
+﻿@page
+@model _22880041.Pages.Index1Model
+@{
+	ViewData["Title"] = "Them mat hang";
+	Layout = null;
+	string TenSp, Loai, HSD;
+	int Gia, MaSp, SoLuong;
+	string Chuoi = string.Empty;
+	if (Request.Method == "POST")
+	{
+		// Nhap du lieu tu man hinh nhap
+		MaSp = int.Parse(Request.Form["MaSp"]);
+		TenSp = Request.Form["TenSp"];
+		Loai = Request.Form["Loai"];
+		Gia = int.Parse(Request.Form["Gia"]);
+		HSD = Request.Form["HSD"];
+		SoLuong = int.Parse(Request.Form["SoLuong"]);
+
+
+		SanPham SpNew = new SanPham();
+		SpNew.MaSp = MaSp;
+		SpNew.TenSp = TenSp;
+		SpNew.Loai = Loai;
+		SpNew.Gia = Gia;
+		SpNew.HSD = HSD;
+		SpNew.SoLuong = SoLuong;
+
+			
+
+		Chuoi=NghiepVu.ThemSanPham(SpNew);
+	}
+	<!DOCTYPE html>
+	<html>
+	<body>
+		<form style="text-align:center" method="POST">
+			<br><br>
+			<label for="MaSanPham">Ma san pham:</label> <br />
+			<input type="text" name="MaSp" Value="" /><br />
+
+			<label for="TenSanPham">Ten San Pham:</label> <br />
+			<input type="text" name="TenSp" Value="" /><br />
+
+			<label for="LoaiSanPham">Loai San Pham:</label> <br />
+			<input type="text" name="Loai" Value="" /><br />
+
+			<label for="GiaSanPham">Gia San Pham:</label> <br />
+			<input type="text" name="Gia" Value="" /><br />
+
+			<label for="HanSuDung">Han Su Dung:</label> <br />
+			<input type="text" name="HSD" Value="" /><br />
+
+			<label for="SoLuongSanPham">So Luong San Pham:</label> <br />
+			<input type="text" name="SoLuong" Value="" /><br />	<br />
+		
+
+			
+			<input type="submit" value="Them san pham" /><br /><br />
+			<br />
+			@Chuoi
+			<br></br>
+			
+			<a href="Index"><botton>Quay lai</botton></a>
+
+
+		</form>
+
+	</body>
+	</html>
+
+}
